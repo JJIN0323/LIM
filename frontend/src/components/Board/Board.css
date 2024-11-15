@@ -14,24 +14,24 @@
     margin: 2rem 0;
 }
 
-/* 리뷰 리스트 컨테이너 */
-.reviewList {
+/* View 리스트 컨테이너 */
+.viewList {
     display: flex;
     gap: 1rem;
     justify-content: center;
     padding-bottom: 0.8rem;
 }
 
-/* 리뷰 카드 */
-.reviewCard {
+/* View 카드 */
+.viewCard {
     width: 40%;
     border: 1px solid #e0e0e0;
     padding: 0.8rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-/* 리뷰 이미지 영역 */
-.reviewImage {
+/* View 이미지 영역 */
+.viewImage {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 0.8rem;
@@ -46,8 +46,8 @@
     border: 1px solid #ccc;
 }
 
-/* 리뷰 텍스트 */
-.reviewText {
+/* View 텍스트 */
+.viewText {
     font-size: 0.9rem;
     color: #333333;
     white-space: nowrap;

@@ -6,6 +6,17 @@
   color: #ffffff; /* 선택된 텍스트의 글자색 */
 }
 
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+
+  .footer, .nav, ul.navBar {
+    width: 70vw !important;
+  }
+}
+
 body {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 1rem;

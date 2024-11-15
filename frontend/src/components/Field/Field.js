@@ -6,7 +6,7 @@ const Field = () => {
   return (
     <fieldset className="fieldContainer">
       <legend>검색</legend>
-      <input className="inputTypeText" id="keywordSearch" name="keyword" placeholder="What kind of volunteer work are you looking for?" type="text" />
+      <input className="inputTypeText" id="keywordSearch" name="keyword" placeholder="Volunteer work are you looking for?" type="text" />
       <VscSearch className='searchBtn'/>
     </fieldset>
   )
