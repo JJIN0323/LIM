@@ -2,7 +2,7 @@ import React from 'react'
 import './RecommendKeyword.css'
 
 const RecommendKeyword = () => {
-    const keywords = ["봉사1", "봉사2", "봉사3", "봉사4", "봉사5"];
+    const keywords = ["봉사1", "봉사2", "봉사3", "봉사4", "봉사5"]
 
     return (
         <div className="recommendKeywordWrap">
@@ -15,7 +15,7 @@ const RecommendKeyword = () => {
                 ))}
             </ul>
         </div>
-    );
-};
+    )
+}
 
 export default RecommendKeyword

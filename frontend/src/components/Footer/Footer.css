@@ -26,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: none;
 }
 
 .carouselImage {
@@ -89,5 +90,5 @@ ul.navBar > li > svg {
 
 .boardList {
     font-size: 1rem;
-    padding: 1.2rem 1.2rem;
+    padding: 2rem 1.2rem;
 }
