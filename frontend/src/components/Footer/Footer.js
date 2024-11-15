@@ -3,7 +3,8 @@ import './Footer.css'
 import { VscHome, VscMenu, VscHeart, VscArchive, VscChevronUp } from 'react-icons/vsc'
 import { Carousel } from 'antd'
 import PopupSearch from '../PopupSearch/PopupSearch'
-import Board from '../Board/Board'
+import BoardContainer from '../Board/BoardContainer'
+import Copyright from '../Copyright/Copyright'
 
 export default class Footer extends Component {
 
@@ -56,7 +57,9 @@ export default class Footer extends Component {
 
         <hr />
 
-        <Board />
+        <BoardContainer />
+
+        <Copyright />
 
         {/* 하단 네비게이션 바 */}
         <nav className='nav'>
