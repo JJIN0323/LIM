@@ -6,7 +6,7 @@ const RecommendKeyword = () => {
 
     return (
         <div className="recommendKeywordWrap">
-            <h3 className="title"># 인기검색어</h3>
+            <h3 className="title"># KEYWORD</h3>
             <ul className="recommendKeywordList">
                 {keywords.map((keyword, index) => (
                     <li className="recommendKeywordItem" key={index}>

@@ -1,21 +1,15 @@
-import React from 'react';
-import './Field.css';
+import React from 'react'
+import './Field.css'
 import { VscSearch } from 'react-icons/vsc'
 
 const Field = () => {
   return (
     <fieldset className="fieldContainer">
       <legend>검색</legend>
-      <input
-        className="inputTypeText"
-        id="keyword"
-        name="keyword"
-        placeholder="어떤 봉사를 찾으세요?"
-        type="text"
-      />
+      <input className="inputTypeText" id="keywordSearch" name="keyword" placeholder="What kind of volunteer work are you looking for?" type="text" />
       <VscSearch className='searchBtn'/>
     </fieldset>
-  );
-};
+  )
+}
 
-export default Field;
+export default Field
